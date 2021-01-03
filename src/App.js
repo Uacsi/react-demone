@@ -12,8 +12,8 @@ export default class App extends React.Component {
 			<BrowserRouter>
 				{/*只匹配其中一个*/}
 				<Switch>
-					<Route path='/login' component={Login}></Route>
-					<Route path='/' component={Admin}></Route>
+					<Route path='/' component={Login}></Route>
+					<Route path='/admin' component={Admin}></Route>
 				</Switch>
 			</BrowserRouter>
 		)
